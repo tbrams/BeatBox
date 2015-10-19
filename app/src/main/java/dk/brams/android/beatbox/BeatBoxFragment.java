@@ -50,7 +50,7 @@ public class BeatBoxFragment extends Fragment {
 
         public SoundHolder(LayoutInflater inflater, ViewGroup container) {
             super(inflater.inflate(R.layout.list_item_sound, container, false));
-            mButton = (Button) itemView.findViewById(R.id.list_item_sound_button);
+            mButton = (Button) itemView.findViewById(R.id.button);
         }
 
         public void bindSound(Sound sound){
